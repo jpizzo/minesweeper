@@ -1,0 +1,33 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "Technical challenge to create replica minesweeper game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpizzo/minesweeper.git"
+  },
+  "author": "j pizzolato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpizzo/minesweeper/issues"
+  },
+  "homepage": "https://github.com/jpizzo/minesweeper#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
