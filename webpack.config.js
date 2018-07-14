@@ -3,19 +3,19 @@ const path = require('path');
 const bundlePath = path.resolve(__dirname, 'public/');
 
 module.exports = {
-  entry: ".src/index.jsx",
+  entry: "./src/index.jsx",
   mode: "development",
   module: {
-    rule: [
+    rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         loader: "babel-loader",
-        options: { presets: [ "env", "react"] }
+        options: { presets: [ "env", "react", "es2015", "stage-2"] }
       },
       {
         test: /\.css$/,
-        use: [ "css-loader", "style-loader" ],
+        loader:  "css-loader"
       }
     ]
   },
