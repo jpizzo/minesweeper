@@ -13,7 +13,23 @@ class GameShell extends Component {
     const gameState = this.props.gameState
     return (
       <div>
-        <div id="game-shell"></div>
+        <div id="game-shell">
+          <div id="inner0-game-shell">
+            <div id="inner1-game-shell">
+              <div id="stats-bar">
+                <div id="left-stats-box">
+                  <div id="inner-left-stats-box"></div>
+                </div>
+                <div id="mid-stats-box">
+                  <div id="inner-mid-stats-box"></div>
+                </div>
+                <div id="right-stats-box">
+                  <div id="inner-right-stats-box"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     )
   }

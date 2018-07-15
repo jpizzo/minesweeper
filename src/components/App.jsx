@@ -9,15 +9,13 @@ class App extends Component {
     super(props)
   }
 
-  
+
   render() {
     return (
       <Provider store={store}>
         <div className="test">
           <h1> Starter page </h1>
-          <GameShell>
-            this is the basic board
-          </GameShell>
+          <GameShell />
         </div>
       </Provider>
     )
